@@ -1,0 +1,118 @@
+.table {
+    margin: 50px;
+}
+
+.row {
+    display: flex;
+
+
+}
+
+.cell-1 {
+    margin: 20px 10px;
+
+    width: 200px;
+    height: 100px;
+
+    background-color: white;
+    transition: all 0.5s;
+    border: 1px solid black;
+    animation-name: cell-1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+
+}
+
+.cell-2 {
+    margin: 20px 10px;
+
+    width: 200px;
+    height: 100px;
+
+    background-color: lightgray;
+    transition: all 0.5s;
+    border: 1px solid black;
+    animation-name: cell-2;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+.cell-3 {
+    margin: 20px 10px;
+
+    width: 200px;
+    height: 100px;
+
+    background-color: gray;
+    transition: all 0.5s;
+    border: 1px solid black;
+    animation-name: cell-3;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+
+@keyframes cell-1 {
+    from { 
+
+        background-color: white;
+    }
+    25% {
+
+        background-color: lightgray;
+    }
+    50% {
+
+        background-color: gray;
+    }
+    75% {
+
+        background-color: lightgray;
+    }
+    to { 
+
+        background-color: white;
+    }
+}
+
+@keyframes cell-2 {
+    from { 
+        background-color: lightgrey;
+    }
+    25% {
+        background-color: grey;
+    }
+    50% {
+
+        background-color: lightgrey;
+    }
+    75% {
+        background-color: grey;
+    }
+    to { 
+
+        background-color: lightgray;
+    }
+}
+
+@keyframes cell-3 {
+    from { 
+        background-color: gray;
+    }
+    25% {
+        background-color: lightgrey;
+    }
+    50% {
+        background-color: white;
+    }
+    75% {
+        background-color: lightgray;
+    }
+    to { 
+        background-color: gray;
+    }
+}
+
